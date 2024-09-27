@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="my-profile-img.jpg" alt="" width="150px">
+            <h1>Shubanu Shree</h1>
+            <div class="social-icon">
+                <a href="https://github.com/shubanushree"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/shubanu_shree_2206/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shubanu-shree-02a4b2298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-user"></i>About Me</a></li>
+                <li><a href="project.html"><i class="fa-solid fa-briefcase"></i>My Projects</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+    <main>
+        <section id="contact">
+            <h1 class="sub-headings">Contact</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Get in touch with me for collaboration, inquiries, or any questions—I'm here to help!</p>
+            <div class="contact-row">
+                <div class="contact-left">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email:</h4>
+                            <P>shubanushreem@gmail.com</P>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Call:</h4>
+                            <P>9384244885</P>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location:</h4>
+                            <P>Paramasivan Kovil Street,Bodinayakanur.</P>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                   <form action="" id="contactForm">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <textarea name="msg" id="msg" rows="3" placeholder="Your Message"></textarea>
+                    <input type="submit" id="submit" value="send message">
+                   </form> 
+                   <p id="successMessage" style="display:none; color:green;">Message sent successfully!</p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/aa5f332820.js" crossorigin="anonymous"></script>
+</body>
+</html>
